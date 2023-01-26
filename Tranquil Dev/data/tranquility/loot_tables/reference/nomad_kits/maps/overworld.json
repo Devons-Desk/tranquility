@@ -1,0 +1,101 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "mineshaft",
+              "decoration": "red_x"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Cavern Explorer Map"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "tsurvival:desert_pyramid",
+              "decoration": "red_x"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Desert Explorer Map"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "tsurvival:pillager_outpost",
+              "decoration": "red_x"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Undercover Explorer Map"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "tsurvival:swamp_hut",
+              "decoration": "red_x"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Mudland Explorer Map"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "village",
+              "decoration": "red_x"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Embassy Explorer Map"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "tsurvival:ancient_city",
+              "decoration": "red_x"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Archaeological Explorer Map"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

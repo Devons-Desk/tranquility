@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "tsurvival:items/trophies/uncommons/enderic_eye",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "dimension": "minecraft:the_end"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "tsurvival:items/trophies/uncommons/ruby_geode",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "position": {
+                  "y": {
+                    "min": -64,
+                    "max": 0
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "tsurvival:items/trophies/uncommons/stained_brush"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "tsurvival:items/trophies/uncommons/certificate_of_skill"
+        }
+      ]
+    }
+  ]
+}

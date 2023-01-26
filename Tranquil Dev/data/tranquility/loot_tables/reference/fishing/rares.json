@@ -1,0 +1,31 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "tsurvival:items/trophies/rares/ancient_gear",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "location": {
+                  "structure": "minecraft:stronghold"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "tsurvival:items/trophies/rares/apple_of_origination"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "tsurvival:items/trophies/rares/faded_scroll"
+        }
+      ]
+    }
+  ]
+}

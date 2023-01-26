@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:beehive",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Bees:",
+                  "color": "gray",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": " 2",
+                      "color": "dark_green",
+                      "italic": false
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{Bees:[{EntityData:{id:\"minecraft:bee\"}},{EntityData:{id:\"minecraft:bee\"}}]}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

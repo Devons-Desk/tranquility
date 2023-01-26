@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:bread"
+            ],
+            "nbt": "{tq.honey_toast:1b}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "tranquility:food/honey_toast/detection"
+    }
+  }
+  

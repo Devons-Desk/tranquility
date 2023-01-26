@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "[Tranquility Ver 1.0.0]",
+        "description": "Tranquility installed. Visit the Readme file for more information!",
+        "icon": {
+            "item": "honey_bottle",
+            "nbt": "{CustomModelData:5102005}"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:devonsdesk",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

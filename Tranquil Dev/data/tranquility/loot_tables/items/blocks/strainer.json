@@ -1,0 +1,27 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:item_frame",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Strainer",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:5102011,tq.strainer:1b,EntityTag:{Invisible:1b,Tags:[\"tq.strainer.place\"]}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

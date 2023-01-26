@@ -1,0 +1,53 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "tsurvival:items/trophies/commons/gold_boot",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "dimension": "minecraft:the_nether"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "tsurvival:items/trophies/commons/foxtail",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:plains"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "tsurvival:items/trophies/commons/old_boot"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "tsurvival:items/trophies/commons/broken_shovel"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "tsurvival:items/trophies/commons/dirty_gem"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "tsurvival:items/trophies/commons/cast_iron_pan"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "tsurvival:items/trophies/commons/stick_of_destiny"
+        }
+      ]
+    }
+  ]
+}

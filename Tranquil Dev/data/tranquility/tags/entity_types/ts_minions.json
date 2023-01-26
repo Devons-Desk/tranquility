@@ -1,0 +1,8 @@
+{
+    "replace":true,
+    "values":[
+        "minecraft:illusioner",
+		"minecraft:wither_skeleton",
+        "minecraft:vex"
+    ]
+}

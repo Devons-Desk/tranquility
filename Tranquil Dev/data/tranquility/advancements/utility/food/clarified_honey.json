@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:honey_bottle"
+            ],
+            "nbt": "{tq.choney:1b}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "tranquility:food/clarified_honey/detection"
+    }
+  }
+  

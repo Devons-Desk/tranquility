@@ -1,0 +1,14 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "tranquility:drying_rack"
+        }
+      }
+    },
+    "rewards": {
+      "function": "tranquility:drying_rack/craft/detection"
+    }
+  }
+  

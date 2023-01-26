@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "tranquility:crafter/detect_air",
+        "tranquility:strainer/detection",
+        "tranquility:drying_rack/detection"
+    ]
+} 

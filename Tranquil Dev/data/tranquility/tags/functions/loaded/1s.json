@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "tranquility:strainer/clarifying/scoreboard",
+        "tranquility:drying_rack/drying/scoreboard",
+        "tranquility:rescue/buildup/scoreboard"
+    ]
+} 

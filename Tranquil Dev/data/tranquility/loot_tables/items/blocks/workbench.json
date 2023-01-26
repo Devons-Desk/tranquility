@@ -1,0 +1,27 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:item_frame",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Workbench",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:5100000,tq.crafter:1b,EntityTag:{Invisible:1b,Tags:[\"tq.crafter\"]}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,25 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:shears"
+            ],
+            "nbt": "{tq.scraper2:1b}"
+          },
+          "location": {
+            "block": {
+              "tag": "minecraft:beehives"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "tranquility:tools/scrapers/golden",
+      "experience": 3
+    }
+  }
+  

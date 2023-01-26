@@ -1,0 +1,43 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "tsurvival:fortress",
+              "decoration": "red_x"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Infernal Explorer Map"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "tsurvival:bastion_remnant",
+              "decoration": "red_x"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Gilded Explorer Map"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

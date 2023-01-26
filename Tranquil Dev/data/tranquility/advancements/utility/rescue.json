@@ -1,0 +1,27 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:structure_block"
+            ],
+            "nbt": "{tq.larvae:1b}"
+          },
+          "location": {
+            "smokey": true,
+            "block": {
+              "blocks": [
+                "minecraft:barrel"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "tranquility:rescue/detection"
+    }
+  }
+  

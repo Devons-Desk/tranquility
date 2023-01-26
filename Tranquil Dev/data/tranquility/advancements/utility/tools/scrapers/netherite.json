@@ -1,0 +1,25 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:shears"
+            ],
+            "nbt": "{tq.scraper3:1b}"
+          },
+          "location": {
+            "block": {
+              "tag": "minecraft:beehives"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "tranquility:tools/scrapers/netherite",
+      "experience": 5
+    }
+  }
+  
